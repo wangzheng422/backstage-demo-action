@@ -1,6 +1,6 @@
 import { createBackendModule } from '@backstage/backend-plugin-api';
 import { scaffolderActionsExtensionPoint  } from '@backstage/plugin-scaffolder-node/alpha';
-import { createAcmeExampleAction } from "example.ts";
+import { createAddCompanyTitleAction } from "./example";
 
 /**
  * A backend module that registers the action into the scaffolder
@@ -14,7 +14,7 @@ export const scaffolderModule = createBackendModule({
         scaffolderActions: scaffolderActionsExtensionPoint
       },
       async init({ scaffolderActions}) {
-        scaffolderActions.addActions(createAcmeExampleAction());
+        scaffolderActions.addActions(createAddCompanyTitleAction());
       }
     });
   },
