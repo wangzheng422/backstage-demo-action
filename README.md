@@ -32,11 +32,11 @@ yarn export-dynamic --no-install
 
 npm login
 
-pushd dist-dynamic 
+cd dist-dynamic 
 
 npm publish
 
-popd
+cd ..
 
 ```
 
