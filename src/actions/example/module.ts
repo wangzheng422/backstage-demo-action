@@ -6,7 +6,7 @@ import { createAddCompanyTitleAction } from "./example";
  * A backend module that registers the action into the scaffolder
  */
 export const scaffolderModule = createBackendModule({
-  moduleId: 'acme:example',
+  moduleId: 'wzh-custom-actions-wangzheng422',
   pluginId: 'scaffolder',
   register({ registerInit }) {
     registerInit({
