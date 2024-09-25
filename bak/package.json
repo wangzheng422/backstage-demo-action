@@ -1,0 +1,76 @@
+{
+    "name": "@wangzheng422/backstage-scaffolder-backend-module-wzh-custom-action",
+    "description": "The wzh demo custom action module for @backstage/plugin-scaffolder-backend",
+    "version": "1.8.0",
+    "main": "src/index.ts",
+    "types": "src/index.ts",
+    "license": "Apache-2.0",
+    "publishConfig": {
+      "access": "public"
+    },
+    "backstage": {
+      "role": "backend-plugin-module",
+      "supported-versions": "1.28.4",
+      "pluginId": "scaffolder",
+      "pluginPackage": "@backstage/plugin-scaffolder-backend"
+    },
+    "exports": {
+      ".": "./src/index.ts",
+      "./alpha": "./src/alpha.ts",
+      "./package.json": "./package.json"
+    },
+    "typesVersions": {
+      "*": {
+        "alpha": [
+          "src/alpha.ts"
+        ],
+        "package.json": [
+          "package.json"
+        ]
+      }
+    },
+    "scripts": {
+      "build": "backstage-cli package build",
+      "clean": "backstage-cli package clean",
+      "export-dynamic": "janus-cli package export-dynamic-plugin --no-embed-as-dependencies",
+      "lint": "backstage-cli package lint",
+      "postpack": "backstage-cli package postpack",
+      "postversion": "yarn run export-dynamic",
+      "prepack": "backstage-cli package prepack",
+      "start": "backstage-cli package start",
+      "test": "backstage-cli package test --passWithNoTests --coverage",
+      "tsc": "tsc"
+    },
+    "dependencies": {
+      "@backstage/backend-dynamic-feature-service": "^0.2.15",
+      "@backstage/backend-plugin-api": "^0.7.0",
+      "@backstage/plugin-scaffolder-node": "^0.4.8"
+    },
+    "devDependencies": {
+      "@backstage/backend-common": "0.23.3",
+      "@backstage/cli": "0.26.11",
+      "@backstage/plugin-scaffolder-node-test-utils": "0.1.9",
+      "@janus-idp/cli": "1.14.0"
+    },
+    "files": [
+      "dist",
+      "dist-dynamic/*.*",
+      "dist-dynamic/dist/**",
+      "dist-dynamic/alpha/*"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wangzheng422/backstage-demo-action",
+      "directory": "/"
+    },
+    "maintainers": [
+      "@wangzheng422/maintainers-plugins"
+    ],
+    "author": "wangzheng422",
+    "homepage": "https://github.com/wangzheng422",
+    "bugs": "https://github.com/wangzheng422/backstage-demo-action/issues",
+    "keywords": [
+      "support:production",
+      "lifecycle:active"
+    ]
+  }
