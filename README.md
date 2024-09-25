@@ -23,9 +23,14 @@ yarn tsc
 
 # yarn install
 
-yarn export-dynamic --no-install  
 
 yarn backstage-cli repo fix --publish
+
+npm pkg fix
+
+yarn export-dynamic --no-install  
+
+npm login
 
 pushd dist-dynamic 
 
