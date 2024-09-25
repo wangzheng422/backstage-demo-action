@@ -39,3 +39,5 @@ npm publish
 popd
 
 ```
+
+`@wangzheng422/backstage-plugin-scaffolder-backend-module-wzh-custom-actions-dynamic`
