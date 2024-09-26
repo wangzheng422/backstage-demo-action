@@ -19,7 +19,11 @@ yarn backstage-cli new
 
 yarn add --dev @janus-idp/cli
 
+# yarn add @backstage/cli
+# yarn add @janus-idp/cli
 
+yarn global add @backstage/cli
+yarn global add @janus-idp/cli
 
 # yarn install
 
@@ -28,6 +32,7 @@ yarn backstage-cli repo fix --publish
 
 npm pkg fix
 
+yarn install --production
 yarn tsc
 yarn export-dynamic --no-install
 

@@ -2224,6 +2224,39 @@
     lodash "^4.17.21"
     winston "^3.2.1"
 
+"@backstage/backend-dynamic-feature-service@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-dynamic-feature-service/-/backend-dynamic-feature-service-0.4.0.tgz#02d5e84200d85607c359d2d38c98bb0ffcaa3104"
+  integrity sha512-54NkFN2R4epGeAAgencKonKAhGnVdmWr/FtmismKIOv9EnBfsCkG4y1VL3hMEYpBrHTx8DqMtgUJ07ftZf9oiw==
+  dependencies:
+    "@backstage/backend-app-api" "^1.0.0"
+    "@backstage/backend-common" "^0.25.0"
+    "@backstage/backend-defaults" "^0.5.0"
+    "@backstage/backend-plugin-api" "^1.0.0"
+    "@backstage/cli-common" "^0.1.14"
+    "@backstage/cli-node" "^0.2.8"
+    "@backstage/config" "^1.2.0"
+    "@backstage/config-loader" "^1.9.1"
+    "@backstage/errors" "^1.2.4"
+    "@backstage/plugin-app-node" "^0.1.25"
+    "@backstage/plugin-auth-node" "^0.5.2"
+    "@backstage/plugin-catalog-backend" "^1.26.0"
+    "@backstage/plugin-events-backend" "^0.3.12"
+    "@backstage/plugin-events-node" "^0.4.0"
+    "@backstage/plugin-permission-common" "^0.8.1"
+    "@backstage/plugin-permission-node" "^0.8.3"
+    "@backstage/plugin-scaffolder-node" "^0.4.11"
+    "@backstage/plugin-search-backend-node" "^1.3.2"
+    "@backstage/plugin-search-common" "^1.2.14"
+    "@backstage/types" "^1.1.1"
+    "@manypkg/get-packages" "^1.1.3"
+    "@types/express" "^4.17.6"
+    chokidar "^3.5.3"
+    express "^4.17.1"
+    fs-extra "^11.2.0"
+    lodash "^4.17.21"
+    winston "^3.2.1"
+
 "@backstage/backend-openapi-utils@^0.1.18":
   version "0.1.18"
   resolved "https://registry.npmjs.org/@backstage/backend-openapi-utils/-/backend-openapi-utils-0.1.18.tgz"
@@ -2352,7 +2385,7 @@
 
 "@backstage/cli@^0.27.1":
   version "0.27.1"
-  resolved "https://registry.npmjs.org/@backstage/cli/-/cli-0.27.1.tgz"
+  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.27.1.tgz#81db4b6e05b21261134a419cd79aa6ab3fedd8fe"
   integrity sha512-w9TRDy0DGvqhuVVPCVpUEMBzzDvY5jCyrxgxyAOR/V9B9sW5VduXZCmVKIqKOEKoncFutsWFxtYqYuZynKDJag==
   dependencies:
     "@backstage/catalog-model" "^1.7.0"
@@ -2543,9 +2576,9 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
 
-"@backstage/plugin-app-node@^0.1.22":
+"@backstage/plugin-app-node@^0.1.22", "@backstage/plugin-app-node@^0.1.25":
   version "0.1.25"
-  resolved "https://registry.npmjs.org/@backstage/plugin-app-node/-/plugin-app-node-0.1.25.tgz"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.25.tgz#346661b6e13da5b7b2288a44a3c742e902b8468f"
   integrity sha512-BEpAiHz5ob4dQmJKkqSl4/F5zwFpHxcudHLF8KYZstsQaN6EFiIZENmHUnbMDjAzEMhz32ZWTYcgOiMHLP/RtQ==
   dependencies:
     "@backstage/backend-plugin-api" "^1.0.0"
@@ -2600,9 +2633,9 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.21.4"
 
-"@backstage/plugin-catalog-backend@^1.24.0":
+"@backstage/plugin-catalog-backend@^1.24.0", "@backstage/plugin-catalog-backend@^1.26.0":
   version "1.26.0"
-  resolved "https://registry.npmjs.org/@backstage/plugin-catalog-backend/-/plugin-catalog-backend-1.26.0.tgz"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend/-/plugin-catalog-backend-1.26.0.tgz#d4093265bab3f90859f78d9070f8acff4eacb671"
   integrity sha512-C3QWjg6uHPnLNLNYbJgCFmXdpwigS9WH/bKpslMpeghSo6utb9Vjl4Wq3M8iT1uIGx37RI3+812oNP+XXT+l2g==
   dependencies:
     "@backstage/backend-common" "^0.25.0"
@@ -2664,9 +2697,9 @@
     "@backstage/plugin-permission-node" "^0.8.3"
     "@backstage/types" "^1.1.1"
 
-"@backstage/plugin-events-backend@^0.3.9":
+"@backstage/plugin-events-backend@^0.3.12", "@backstage/plugin-events-backend@^0.3.9":
   version "0.3.12"
-  resolved "https://registry.npmjs.org/@backstage/plugin-events-backend/-/plugin-events-backend-0.3.12.tgz"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-events-backend/-/plugin-events-backend-0.3.12.tgz#a2b66e3ab556bf7b70e9ef8131817835d24a9480"
   integrity sha512-CwtaComFu8zEgfaiP7bNGogwjReRKfwlvutnpFZ84ZQCLbp/VucU+gZEO1lbaqxgVmEXjCNUXCW1QUAmruUkxw==
   dependencies:
     "@backstage/backend-common" "^0.25.0"
@@ -3314,7 +3347,7 @@
 
 "@janus-idp/backstage-scaffolder-backend-module-annotator@^1.4.0":
   version "1.4.0"
-  resolved "https://registry.npmjs.org/@janus-idp/backstage-scaffolder-backend-module-annotator/-/backstage-scaffolder-backend-module-annotator-1.4.0.tgz"
+  resolved "https://registry.yarnpkg.com/@janus-idp/backstage-scaffolder-backend-module-annotator/-/backstage-scaffolder-backend-module-annotator-1.4.0.tgz#00d08ec44dd866cb77d0a84d6b742d44a5e1b54a"
   integrity sha512-lFb0W3EEgtkYSuvO8dD0NEc1DgM7toq3LGsHgV2aE4cgbmveL7kt6zpKO9RnTFk9LTSVmiWM5tEKCjOMZw7RdA==
   dependencies:
     "@backstage/backend-common" "^0.23.3"
@@ -3326,10 +3359,10 @@
     lodash "^4.17.21"
     yaml "^2.0.0"
 
-"@janus-idp/cli@^1.14.0":
-  version "1.14.0"
-  resolved "https://registry.npmjs.org/@janus-idp/cli/-/cli-1.14.0.tgz"
-  integrity sha512-UKgWSsleoI5I0c5pptol+Zi/5fmf3awsk70vki4nyMxk6MqkxEP4BZC3JOImKvNlnG9aeykaamokTB5VYkf6jg==
+"@janus-idp/cli@^1.15.0":
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/@janus-idp/cli/-/cli-1.15.0.tgz#1108b727bf70c09d996d358fa5f709340f0b53a2"
+  integrity sha512-vrgjuoIhvIGKfVilfzLwy00jKW7w3N8Ym3EILnBn8zLkKkgvNxN6HKoOoClHSB+aN+gH8Yk1ahhpJA/YFUDvzA==
   dependencies:
     "@backstage/cli-common" "^0.1.14"
     "@backstage/cli-node" "^0.2.7"

@@ -27,16 +27,16 @@
     "export-dynamic": "janus-cli package export-dynamic-plugin --embed-as-dependencies"
   },
   "dependencies": {
+    "@backstage/backend-dynamic-feature-service": "^0.4.0",
     "@backstage/backend-plugin-api": "^1.0.0",
     "@backstage/plugin-scaffolder-node": "^0.4.11",
     "@janus-idp/backstage-scaffolder-backend-module-annotator": "^1.4.0",
-    "@backstage/backend-dynamic-feature-service": "^0.2.15",
-    "@janus-idp/cli": "^1.14.0"
+    "@janus-idp/cli": "^1.15.0"
   },
   "devDependencies": {
     "@backstage/cli": "^0.27.1",
     "@janus-idp/backstage-scaffolder-backend-module-annotator": "^1.4.0",
-    "@janus-idp/cli": "^1.14.0"
+    "@janus-idp/cli": "^1.15.0"
   },
   "files": [
     "dist"
