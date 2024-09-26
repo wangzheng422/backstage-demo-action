@@ -22,6 +22,7 @@ yarn backstage-cli repo fix --publish
 
 npm pkg fix
 
+
 yarn tsc
 yarn export-dynamic --no-install
 
