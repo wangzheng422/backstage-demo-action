@@ -6,4 +6,4 @@
  */
 
 export * from './actions';
-export * from './dynamic';
+export * from './dynamic/index';
