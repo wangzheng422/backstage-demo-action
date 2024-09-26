@@ -133,3 +133,5 @@ dist
 # wzh
 dist-dynamic/
 dist-types/
+
+!dist-dynamic/package.json
