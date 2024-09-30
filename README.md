@@ -11,7 +11,7 @@ reference:
 - https://github.com/janus-idp/backstage-plugins/tree/main/plugins/quay-actions
 
 ```bash
-
+# prepare some command line
 yarn add --dev @backstage/cli
 
 yarn backstage-cli new
@@ -32,15 +32,18 @@ yarn backstage-cli repo fix --publish
 
 npm pkg fix
 
-
+# build the program with these
 yarn tsc
 yarn export-dynamic --no-install --clean
 yarn install --production
 
-npx 
 
+# npx 
+
+# login to npm
 npm login
 
+# and publish the dynamic plugin to npm registry
 cd dist-dynamic 
 
 npm publish
