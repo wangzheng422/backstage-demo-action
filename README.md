@@ -32,9 +32,12 @@ yarn backstage-cli repo fix --publish
 
 npm pkg fix
 
-yarn install --production
+
 yarn tsc
-yarn export-dynamic --no-install
+yarn export-dynamic --no-install --clean
+yarn install --production
+
+npx 
 
 npm login
 

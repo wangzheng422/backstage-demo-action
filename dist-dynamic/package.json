@@ -19,10 +19,12 @@
   "exports": {
     ".": {
       "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts",
       "default": "./dist/index.cjs.js"
     },
     "./alpha": {
       "require": "./dist/alpha.cjs.js",
+      "types": "./dist/alpha.d.ts",
       "default": "./dist/alpha.cjs.js"
     },
     "./package.json": "./package.json"
@@ -34,7 +36,8 @@
   },
   "devDependencies": {},
   "files": [
-    "dist"
+    "dist",
+    "alpha"
   ],
   "bundleDependencies": true,
   "peerDependencies": {
